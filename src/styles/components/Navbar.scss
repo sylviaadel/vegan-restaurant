@@ -1,0 +1,38 @@
+nav.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  img {
+    height: 50px;
+  }
+  ul {
+    list-style: none;
+    li {
+      display: inline-block;
+      color: $darkGreenColor;
+      margin-left: $spacing-small;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 860px) {
+  nav.navbar {
+    height: 100px;
+    padding: 1.5rem;
+    img {
+      height: 75px;
+    }
+    ul {
+      li {
+        margin-left: $spacing-xlarge;
+        font-size: 30px;
+        font-weight: 600;
+      }
+    }
+  }
+}
