@@ -1,7 +1,12 @@
-import "./App.scss";
+import Navbar from "./components/Navbar";
+import HomePage from "./pages/Home";
+import "./styles/style.scss";
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+  return (
+    <div className="App">
+      <Navbar />
+      <HomePage />
+    </div>
+  );
 }
-
-export default App;
