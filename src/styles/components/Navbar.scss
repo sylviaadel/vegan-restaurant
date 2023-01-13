@@ -5,6 +5,10 @@ nav.navbar {
   justify-content: space-between;
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  top: 0;
   img {
     height: 50px;
   }
