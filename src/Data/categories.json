@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Dishes",
+    "image": "dishes-main-img.png",
+    "alt": "A vegan dish full of different types of vegtables",
+    "desc1": "In our wonderful dishes, you'll find wholesome vegan meals made with affordable and protein-rich whole grains, beans, and nuts. ",
+    "desc2": "You'll also see plenty of fresh, colorful produce, and occasionally some tofu. No funny meat substitutes here.",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "name": "Desserts",
+    "image": "desserts-main-img.png",
+    "alt": "A vegan dessert dish with banana",
+    "desc1": "In our delicious desserts, you'll find the  best vegan desserts, include plant-based twists on classic recipes with creative frozen treats, cakes, and more! ",
+    "desc2": "No matter what you're craving, you're guaranteed to find a sweet treat you love.",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "name": "Drinks",
+    "image": "drinks-main-img.png",
+    "alt": "A mug of vegan hot drink",
+    "desc1": "If you think it's only the use of milk and milk products that come from animals that make a drink non-vegan, think again.",
+    "desc2": "Whether you want something bright and fruity or crave creaminess sans the cream, our tasty vegan drinks will make your tastebuds sing.",
+    "link": ""
+  }
+]

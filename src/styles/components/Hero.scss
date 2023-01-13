@@ -7,8 +7,9 @@
   justify-content: center;
   gap: $spacing-small;
   img {
-    height: 152px;
     margin-bottom: 24px;
+    min-width: 160px;
+    width: 30%;
   }
   h1,
   h3 {
