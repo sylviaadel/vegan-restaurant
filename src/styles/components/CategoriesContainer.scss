@@ -22,6 +22,8 @@
       }
       p {
         text-align: justify;
+        white-space: pre-line;
+        vertical-align: bottom;
       }
       a {
         color: $darkGreenColor;

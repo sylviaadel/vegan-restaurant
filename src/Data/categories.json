@@ -2,28 +2,118 @@
   {
     "id": 1,
     "name": "Dishes",
+    "title": "Our Wonderful Dishes",
     "image": "dishes-main-img.png",
     "alt": "A vegan dish full of different types of vegtables",
-    "desc1": "In our wonderful dishes, you'll find wholesome vegan meals made with affordable and protein-rich whole grains, beans, and nuts. ",
-    "desc2": "You'll also see plenty of fresh, colorful produce, and occasionally some tofu. No funny meat substitutes here.",
-    "link": ""
+    "desc": "In our wonderful dishes, you'll find wholesome vegan meals made with affordable and protein-rich whole grains, beans, and nuts. \n \n You'll also see plenty of fresh, colorful produce, and occasionally some tofu. No funny meat substitutes here.",
+    "link": "",
+    "products": [
+      {
+        "id": "1",
+        "name": "Butternut Squash Mac & Cheese",
+        "desc": "Ultra creamy and delicious this Vegan Butternut Squash Mac & Cheese with smoky flavor is the BEST! With only 10 ingredients it's quick and  comfort food! \n \n This is a delicious fall inspired mac and cheese made with butternut squash, cashews, nutritional yeast, smoked paprika and a few other everyday pantry staples.",
+        "img": "",
+        "alt": "",
+        "ingredients": [
+          "Butternut",
+          "Squash",
+          "Pasta",
+          "Cashews",
+          "Garlic",
+          "Dijon",
+          "Nutritional Yeast",
+          "Smoked Paprika",
+          "Onion Powder",
+          "Lemon",
+          "Salt & Pepper"
+        ],
+        "nutritionFacts": {
+          "calories": "466",
+          "totalFat": "15%",
+          "cholesterol": "0%",
+          "Sodium": "1%",
+          "totalCarbohydrate": "28%",
+          "protein": "33%"
+        }
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Desserts",
+    "title": "Our Delicious Desserts",
     "image": "desserts-main-img.png",
     "alt": "A vegan dessert dish with banana",
-    "desc1": "In our delicious desserts, you'll find the  best vegan desserts, include plant-based twists on classic recipes with creative frozen treats, cakes, and more! ",
-    "desc2": "No matter what you're craving, you're guaranteed to find a sweet treat you love.",
-    "link": ""
+    "desc": "In our delicious desserts, you'll find the  best vegan desserts, include plant-based twists on classic recipes with creative frozen treats, cakes, and more! \n \n No matter what you're craving, you're guaranteed to find a sweet treat you love.",
+    "link": "",
+    "products": [
+      {
+        "id": "1",
+        "name": "Butternut Squash Mac & Cheese",
+        "desc": "Ultra creamy and delicious this Vegan Butternut Squash Mac & Cheese with smoky flavor is the BEST! With only 10 ingredients it's quick and  comfort food! \n \n This is a delicious fall inspired mac and cheese made with butternut squash, cashews, nutritional yeast, smoked paprika and a few other everyday pantry staples.",
+        "img": "",
+        "alt": "",
+        "ingredients": [
+          "Butternut",
+          "Squash",
+          "Pasta",
+          "Cashews",
+          "Garlic",
+          "Dijon",
+          "Nutritional Yeast",
+          "Smoked Paprika",
+          "Onion Powder",
+          "Lemon",
+          "Salt & Pepper"
+        ],
+        "nutritionFacts": {
+          "calories": "466",
+          "totalFat": "15%",
+          "cholesterol": "0%",
+          "Sodium": "1%",
+          "totalCarbohydrate": "28%",
+          "protein": "33%"
+        }
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Drinks",
+    "title": "Our Tasty Drinks",
     "image": "drinks-main-img.png",
     "alt": "A mug of vegan hot drink",
-    "desc1": "If you think it's only the use of milk and milk products that come from animals that make a drink non-vegan, think again.",
-    "desc2": "Whether you want something bright and fruity or crave creaminess sans the cream, our tasty vegan drinks will make your tastebuds sing.",
-    "link": ""
+    "desc": "If you think it's only the use of milk and milk products that come from animals that make a drink non-vegan, think again. \n \n Whether you want something bright and fruity or crave creaminess sans the cream, our tasty vegan drinks will make your tastebuds sing.",
+    "link": "",
+    "products": [
+      {
+        "id": "1",
+        "name": "Butternut Squash Mac & Cheese",
+        "desc": "Ultra creamy and delicious this Vegan Butternut Squash Mac & Cheese with smoky flavor is the BEST! With only 10 ingredients it's quick and  comfort food! \n \n This is a delicious fall inspired mac and cheese made with butternut squash, cashews, nutritional yeast, smoked paprika and a few other everyday pantry staples.",
+        "img": "",
+        "alt": "",
+        "ingredients": [
+          "Butternut",
+          "Squash",
+          "Pasta",
+          "Cashews",
+          "Garlic",
+          "Dijon",
+          "Nutritional Yeast",
+          "Smoked Paprika",
+          "Onion Powder",
+          "Lemon",
+          "Salt & Pepper"
+        ],
+        "nutritionFacts": {
+          "calories": "466",
+          "totalFat": "15%",
+          "cholesterol": "0%",
+          "Sodium": "1%",
+          "totalCarbohydrate": "28%",
+          "protein": "33%"
+        }
+      }
+    ]
   }
 ]
