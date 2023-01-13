@@ -1,10 +1,11 @@
-import categoryImg from "../assets/images/desserts-main-img.png";
+import category from "../Data/categories.json";
 
-export default function Category() {
-  return (
-    <header className="category-header">
-      <img src={categoryImg} alt="categoryImg" />
-      <h1>Our Wonderful Dishes</h1>
-    </header>
-  );
+const categoriesItems = category.map((category) => (
+  <header className="category-header" key={category.id}>
+    <img src={`images/${category.image}`} alt={category.alt} />
+    <h1>{category.title}</h1>
+  </header>
+));
+export default function Category(id) {
+  return <>{categoriesItems}</>;
 }
