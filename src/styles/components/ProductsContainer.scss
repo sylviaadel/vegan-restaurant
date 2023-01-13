@@ -1,0 +1,27 @@
+.ProductsContainer {
+  margin-top: $spacing-medium;
+  section {
+    padding: $spacing-large;
+    &:nth-child(even) {
+      background-color: $lightGreyColor;
+    }
+    div {
+      max-width: 305px;
+      margin: auto;
+    }
+    img {
+      height: 40px;
+      float: left;
+      margin-right: $spacing-small;
+    }
+    h3 {
+      margin: $spacing-small;
+      float: left;
+      color: $darkGreenColor;
+    }
+    p {
+      display: inline-block;
+      margin-top: $spacing-small;
+    }
+  }
+}

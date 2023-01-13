@@ -9,9 +9,8 @@ const categoriesItems = category.map((category) => (
         <img src={`images/${category.image}`} alt={category.alt} />
       </div>
       <h2>{category.name}</h2>
-      <p>{category.desc1}</p>
-      <p>{category.desc2}</p>
-      <Link to="/Category">
+      <p>{category.desc}</p>
+      <Link to={`${category.id}`}>
         <img src={arrowRight} alt="Chevron Right" /> View menu
       </Link>
     </div>

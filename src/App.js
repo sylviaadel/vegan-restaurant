@@ -11,6 +11,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        {/* <Route path={`${category.id}`} element={<Category props={id} />} /> */}
         <Route path="/Category" element={<Category />} />
       </Routes>
       <Footer />
