@@ -1,0 +1,19 @@
+.category-header {
+  background-color: $lightGreyColor;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-align: center;
+  margin-top: 70px;
+  img {
+    min-width: 135px;
+    width: 30%;
+  }
+  h1 {
+    color: $darkGreenColor;
+    max-width: 305px;
+  }
+}
