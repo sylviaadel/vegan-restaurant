@@ -1,0 +1,39 @@
+.CategoriesContainer {
+  section {
+    padding: 2rem;
+    &:nth-child(even) {
+      background-color: $lightGreyColor;
+    }
+    div {
+      max-width: 305px;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      gap: $spacing-medium;
+      .CategoryImgContainer {
+        img {
+          height: 132px;
+          object-fit: contain;
+          margin-bottom: $spacing-medium;
+        }
+      }
+      h2 {
+        color: $darkGreenColor;
+      }
+      p {
+        text-align: justify;
+      }
+      a {
+        color: $darkGreenColor;
+        font-weight: 600;
+        text-decoration: none;
+        margin-top: $spacing-medium;
+        img {
+          height: 12px;
+          float: left;
+          margin: 4px 5px 0 0;
+        }
+      }
+    }
+  }
+}
