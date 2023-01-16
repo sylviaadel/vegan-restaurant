@@ -11,7 +11,9 @@ export default function Navbar() {
         <li>Dishes</li>
         <li>Desserts</li>
         <li>Drinks</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/Contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );
