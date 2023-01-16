@@ -10,7 +10,7 @@ const categoriesItems = category.map((category) => (
       </div>
       <h2>{category.name}</h2>
       <p>{category.desc}</p>
-      <Link to={`${category.id}`}>
+      <Link to="/Category">
         <img src={arrowRight} alt="Chevron Right" /> View menu
       </Link>
     </div>
