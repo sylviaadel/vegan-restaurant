@@ -14,5 +14,5 @@ const categoriesItems = category.map((category) => (
   </>
 ));
 export default function Category(props) {
-  return { categoriesItems };
+  return <>{categoriesItems}</>;
 }
