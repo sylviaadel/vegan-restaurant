@@ -16,10 +16,15 @@ nav.navbar {
     list-style: none;
     li {
       display: inline-block;
-      color: $darkGreenColor;
       margin-left: $spacing-small;
       font-size: 14px;
       font-weight: 600;
+      color: $darkGreenColor;
+      a {
+        color: $darkGreenColor;
+        text-decoration: none;
+        font-size: 14px;
+      }
     }
   }
 }
