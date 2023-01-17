@@ -1,4 +1,5 @@
-import NutritionFacts from "../components/NutritionFacts";
+import Ingredients from "../components/Product/Ingredients";
+import NutritionFacts from "../components/Product/NutritionFacts";
 import productImg from "../assets/images/mac-cheese.jpg";
 
 export default function Product() {
@@ -16,20 +17,7 @@ export default function Product() {
           with butternut squash, cashews, nutritional yeast, smoked paprika and
           a few other everyday pantry staples.
         </p>
-        <h3>Ingredients</h3>
-        <ul>
-          <li>Butternut Squash </li>
-          <li>Pasta </li>
-          <li>Cashews </li>
-          <li>Garlic </li>
-          <li>Dijon</li>
-          <li>Nutritional Yeast</li>
-          <li>Smoked Paprika</li>
-          <li>Onion Powder</li>
-          <li>Lemon</li>
-          <li>Salt & Pepper </li>
-        </ul>
-        <h3>Nutrition Facts</h3>
+        <Ingredients />
         <NutritionFacts />
         <button className="primary-btn">Go Back</button>
       </div>

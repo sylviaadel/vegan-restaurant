@@ -1,5 +1,5 @@
-import Hero from "../components/Hero";
-import CategoriesContainer from "../components/CategoriesContainer";
+import Hero from "../components/Home/Hero";
+import CategoriesContainer from "../components/Home/CategoriesContainer";
 
 export default function HomePage() {
   return (

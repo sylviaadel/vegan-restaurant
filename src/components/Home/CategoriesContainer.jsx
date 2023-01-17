@@ -1,5 +1,5 @@
-import category from "../Data/categories.json";
-import arrowRight from "../assets/images/chevron-right.png";
+import category from "../../Data/categories.json";
+import arrowRight from "../../assets/images/chevron-right.png";
 import { Link } from "react-router-dom";
 
 const categoriesItems = category.map((category) => (
