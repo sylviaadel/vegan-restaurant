@@ -27,14 +27,32 @@
           "Lemon",
           "Salt & Pepper"
         ],
-        "nutritionFacts": {
-          "calories": "466",
-          "totalFat": "15%",
-          "cholesterol": "0%",
-          "Sodium": "1%",
-          "totalCarbohydrate": "28%",
-          "protein": "33%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "466"
+          },
+          {
+            "name": "Total Fat",
+            "value": "15%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "1%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "28%"
+          },
+          {
+            "name": "Protein",
+            "value": "33%"
+          }
+        ]
       },
       {
         "id": "2",
@@ -56,14 +74,32 @@
           "Italian seasoning ",
           "Olive oil"
         ],
-        "nutritionFacts": {
-          "calories": "463",
-          "totalFat": "26%",
-          "cholesterol": "1%",
-          "Sodium": "27%",
-          "totalCarbohydrate": "21%",
-          "protein": "48%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "463"
+          },
+          {
+            "name": "Total Fat",
+            "value": "26%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "1%"
+          },
+          {
+            "name": "Sodium",
+            "value": "27%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "21%"
+          },
+          {
+            "name": "Protein",
+            "value": "48%"
+          }
+        ]
       },
       {
         "id": "3",
@@ -84,14 +120,32 @@
           "Coconut Milk",
           "Oil"
         ],
-        "nutritionFacts": {
-          "calories": "304",
-          "totalFat": "25%",
-          "cholesterol": "0%",
-          "Sodium": "12%",
-          "totalCarbohydrate": "10%",
-          "protein": "17%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "304"
+          },
+          {
+            "name": "Total Fat",
+            "value": "25%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "12%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "10%"
+          },
+          {
+            "name": "Protein",
+            "value": "17%"
+          }
+        ]
       },
       {
         "id": "4",
@@ -109,14 +163,32 @@
           "Dijon",
           "Freshly cracked pepper"
         ],
-        "nutritionFacts": {
-          "calories": "302",
-          "totalFat": "25%",
-          "cholesterol": "26%",
-          "Sodium": "7%",
-          "totalCarbohydrate": "3%",
-          "protein": "47%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "302"
+          },
+          {
+            "name": "Total Fat",
+            "value": "25%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "26%"
+          },
+          {
+            "name": "Sodium",
+            "value": "7%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "3%"
+          },
+          {
+            "name": "Protein",
+            "value": "47%"
+          }
+        ]
       },
       {
         "id": "5",
@@ -137,14 +209,32 @@
           "Radishes",
           "Avocado"
         ],
-        "nutritionFacts": {
-          "calories": "600",
-          "totalFat": "26%",
-          "cholesterol": "0%",
-          "Sodium": "62%",
-          "totalCarbohydrate": "31%",
-          "protein": "45%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "600"
+          },
+          {
+            "name": "Total Fat",
+            "value": "26%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "62%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "31%"
+          },
+          {
+            "name": "Protein",
+            "value": "45%"
+          }
+        ]
       },
       {
         "id": "6",
@@ -166,14 +256,32 @@
           "Shredded carrots",
           "Bibb lettuce"
         ],
-        "nutritionFacts": {
-          "calories": "505",
-          "totalFat": "37%",
-          "cholesterol": "0%",
-          "Sodium": "53%",
-          "totalCarbohydrate": "17%",
-          "protein": "46%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "505"
+          },
+          {
+            "name": "Total Fat",
+            "value": "37%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "53%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "17%"
+          },
+          {
+            "name": "Protein",
+            "value": "46%"
+          }
+        ]
       }
     ]
   },
@@ -203,14 +311,32 @@
           "Almonds ",
           "ice cubes"
         ],
-        "nutritionFacts": {
-          "calories": "334",
-          "totalFat": "25%",
-          "cholesterol": "0%",
-          "Sodium": "4%",
-          "totalCarbohydrate": "13%",
-          "protein": "19%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "334"
+          },
+          {
+            "name": "Total Fat",
+            "value": "25%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "4%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "13%"
+          },
+          {
+            "name": "Protein",
+            "value": "19%"
+          }
+        ]
       },
       {
         "id": "2",
@@ -232,14 +358,32 @@
           "Cacao nibs",
           "Nut butter"
         ],
-        "nutritionFacts": {
-          "calories": "212",
-          "totalFat": "12%",
-          "cholesterol": "0%",
-          "Sodium": "0%",
-          "totalCarbohydrate": "11%",
-          "protein": "10%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "212"
+          },
+          {
+            "name": "Total Fat",
+            "value": "12%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "0%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "11%"
+          },
+          {
+            "name": "Protein",
+            "value": "10%"
+          }
+        ]
       },
       {
         "id": "3",
@@ -258,14 +402,32 @@
           "Cinnamon ",
           "Salt "
         ],
-        "nutritionFacts": {
-          "calories": "422",
-          "totalFat": "30%",
-          "cholesterol": "0%",
-          "Sodium": "38%",
-          "totalCarbohydrate": "19%",
-          "protein": "22%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "422"
+          },
+          {
+            "name": "Total Fat",
+            "value": "30%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "38%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "19%"
+          },
+          {
+            "name": "Protein",
+            "value": "22%"
+          }
+        ]
       },
       {
         "id": "4",
@@ -280,14 +442,32 @@
           "Lime ",
           "Granola "
         ],
-        "nutritionFacts": {
-          "calories": "124",
-          "totalFat": "10%",
-          "cholesterol": "0%",
-          "Sodium": "2%",
-          "totalCarbohydrate": "4%",
-          "protein": "9%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "124"
+          },
+          {
+            "name": "Total Fat",
+            "value": "10%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "2%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "4%"
+          },
+          {
+            "name": "Protein",
+            "value": "9%"
+          }
+        ]
       },
       {
         "id": "5",
@@ -303,14 +483,32 @@
           "Hemp Hearts ",
           "Goji Berries"
         ],
-        "nutritionFacts": {
-          "calories": "347",
-          "totalFat": "23%",
-          "cholesterol": "0%",
-          "Sodium": "2%",
-          "totalCarbohydrate": "17%",
-          "protein": "22%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "347"
+          },
+          {
+            "name": "Total Fat",
+            "value": "23%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "2%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "17%"
+          },
+          {
+            "name": "Protein",
+            "value": "22%"
+          }
+        ]
       }
     ]
   },
@@ -337,14 +535,32 @@
           "Pure Maple Syrup",
           "Cacao/Cocoa Powder"
         ],
-        "nutritionFacts": {
-          "calories": "254",
-          "totalFat": "4%",
-          "cholesterol": "0%",
-          "Sodium": "8%",
-          "totalCarbohydrate": "20%",
-          "protein": "6%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "254"
+          },
+          {
+            "name": "Total Fat",
+            "value": "4%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "8%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "20%"
+          },
+          {
+            "name": "Protein",
+            "value": "6%"
+          }
+        ]
       },
       {
         "id": "2",
@@ -362,14 +578,32 @@
           "Vanilla ",
           "Salt "
         ],
-        "nutritionFacts": {
-          "calories": "254",
-          "totalFat": "18%",
-          "cholesterol": "1%",
-          "Sodium": "8%",
-          "totalCarbohydrate": "11%",
-          "protein": "7%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "254"
+          },
+          {
+            "name": "Total Fat",
+            "value": "18%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "1%"
+          },
+          {
+            "name": "Sodium",
+            "value": "8%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "11%"
+          },
+          {
+            "name": "Protein",
+            "value": "7%"
+          }
+        ]
       },
       {
         "id": "3",
@@ -386,14 +620,32 @@
           "Toasted coconut flakes",
           "Dark chocolate shavings "
         ],
-        "nutritionFacts": {
-          "calories": "165",
-          "totalFat": "4%",
-          "cholesterol": "0%",
-          "Sodium": "8%",
-          "totalCarbohydrate": "12%",
-          "protein": "7%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "165"
+          },
+          {
+            "name": "Total Fat",
+            "value": "4%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "8%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "12%"
+          },
+          {
+            "name": "Protein",
+            "value": "7%"
+          }
+        ]
       },
       {
         "id": "4",
@@ -409,14 +661,32 @@
           "Dates ",
           "Cinnamon "
         ],
-        "nutritionFacts": {
-          "calories": "197",
-          "totalFat": "4%",
-          "cholesterol": "0%",
-          "Sodium": "4%",
-          "totalCarbohydrate": "16%",
-          "protein": "7%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "197"
+          },
+          {
+            "name": "Total Fat",
+            "value": "4%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "4%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "16%"
+          },
+          {
+            "name": "Protein",
+            "value": "7%"
+          }
+        ]
       },
       {
         "id": "5",
@@ -431,14 +701,32 @@
           "Cinnamon ",
           "Almond Milk "
         ],
-        "nutritionFacts": {
-          "calories": "244",
-          "totalFat": "5%",
-          "cholesterol": "0%",
-          "Sodium": "8%",
-          "totalCarbohydrate": "19%",
-          "protein": "8%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "244"
+          },
+          {
+            "name": "Total Fat",
+            "value": "5%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "8%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "19%"
+          },
+          {
+            "name": "Protein",
+            "value": "8%"
+          }
+        ]
       },
       {
         "id": "6",
@@ -456,14 +744,32 @@
           "Cashew Milk",
           "Protein Powder"
         ],
-        "nutritionFacts": {
-          "calories": "280",
-          "totalFat": "5%",
-          "cholesterol": "0%",
-          "Sodium": "8%",
-          "totalCarbohydrate": "22%",
-          "protein": "10%"
-        }
+        "nutritionFacts": [
+          {
+            "name": "Calories",
+            "value": "280"
+          },
+          {
+            "name": "Total Fat",
+            "value": "5%"
+          },
+          {
+            "name": "Cholesterol",
+            "value": "0%"
+          },
+          {
+            "name": "Sodium",
+            "value": "8%"
+          },
+          {
+            "name": "Total Carbohydrate",
+            "value": "22%"
+          },
+          {
+            "name": "Protein",
+            "value": "10%"
+          }
+        ]
       }
     ]
   }
