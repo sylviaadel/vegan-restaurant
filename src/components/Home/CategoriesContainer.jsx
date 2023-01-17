@@ -8,11 +8,13 @@ const categoriesItems = category.map((category) => (
       <div className="CategoryImgContainer">
         <img src={`images/${category.image}`} alt={category.alt} />
       </div>
-      <h2>{category.name}</h2>
-      <p>{category.desc}</p>
-      <Link to="/Category">
-        <img src={arrowRight} alt="Chevron Right" /> View menu
-      </Link>
+      <div>
+        <h2>{category.name}</h2>
+        <p>{category.desc}</p>
+        <Link to="/Category">
+          <img src={arrowRight} alt="Chevron Right" /> View menu
+        </Link>
+      </div>
     </div>
   </section>
 ));

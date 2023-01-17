@@ -33,6 +33,11 @@ a {
   font-size: 28px;
   width: 100%;
   border: 0;
+  font-weight: 500;
+}
+
+.clear {
+  clear: both;
 }
 
 @media (min-width: 860px) {
@@ -48,5 +53,9 @@ a {
   p,
   a {
     font-size: 20px;
+  }
+  .primary-btn {
+    font-size: 30px;
+    border-radius: 500px;
   }
 }

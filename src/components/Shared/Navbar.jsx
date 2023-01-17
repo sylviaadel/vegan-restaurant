@@ -8,9 +8,15 @@ export default function Navbar() {
         <img src={mainLogo} alt="A fork and a spoon along with a leaf." />
       </Link>
       <ul>
-        <li>Dishes</li>
-        <li>Desserts</li>
-        <li>Drinks</li>
+        <li>
+          <Link to="/Category">Dishes</Link>
+        </li>
+        <li>
+          <Link to="/Category">Desserts</Link>
+        </li>
+        <li>
+          <Link to="/Category">Drinks</Link>
+        </li>
         <li>
           <Link to="/Contact">Contact</Link>
         </li>
