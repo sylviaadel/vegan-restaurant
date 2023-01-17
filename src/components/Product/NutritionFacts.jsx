@@ -24,7 +24,8 @@ export default function NutritionFacts() {
           <td>28%</td>
         </tr>
         <tr>
-          <td>Protein</td> <td>33%</td>
+          <td>Protein</td>
+          <td>33%</td>
         </tr>
       </table>
     </>

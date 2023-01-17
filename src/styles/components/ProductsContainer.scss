@@ -25,3 +25,26 @@
     }
   }
 }
+
+@media (min-width: 860px) {
+  .ProductsContainer {
+    margin-top: $spacing-large;
+    section {
+      padding: $spacing-large 0 0 0;
+      &:nth-child(even) {
+        background-color: $whiteColor;
+      }
+      & > div {
+        max-width: 825px;
+        img {
+          height: 190px;
+          margin-right: $spacing-medium;
+        }
+      }
+      div div {
+        max-width: 560px;
+        float: left;
+      }
+    }
+  }
+}

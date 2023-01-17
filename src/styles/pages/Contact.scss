@@ -51,9 +51,6 @@
       background: url(../../assets/images/calendar-icon.svg) no-repeat 95%
         center;
     }
-    &.time-field {
-      background: url(../../assets/images/clock-icon.svg) no-repeat 95% center;
-    }
   }
   .react-datepicker-wrapper:has(.day-field) {
     margin-bottom: $spacing-medium;
@@ -81,5 +78,29 @@
     max-height: 230px;
     object-fit: cover;
     width: 100%;
+  }
+}
+
+@media (min-width: 860px) {
+  .contact-header {
+    margin-top: 100px;
+    & > img {
+      width: 405px;
+      margin-top: 4rem;
+    }
+  }
+  .opening-times,
+  .book-table,
+  .address {
+    max-width: 650px;
+  }
+  .book-table input[type="text"] {
+    &.day-field {
+      background: url(../../assets/images/calendar-icon.svg) no-repeat 98%
+        center;
+    }
+  }
+  .map img {
+    max-height: 580px;
   }
 }
