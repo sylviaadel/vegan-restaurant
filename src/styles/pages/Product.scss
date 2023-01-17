@@ -1,0 +1,64 @@
+.product-header {
+  padding: 2rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $spacing-large;
+  margin-top: 70px;
+  img {
+    min-width: 305px;
+    width: 30%;
+    border-radius: 25px;
+    object-fit: cover;
+    max-height: 230px;
+  }
+  h2 {
+    color: $darkGreenColor;
+    max-width: 305px;
+  }
+}
+.product-content {
+  text-align: justify;
+  margin: $spacing-large auto;
+  max-width: 305px;
+  & > p {
+    white-space: pre-line;
+    vertical-align: bottom;
+    margin: 0 auto $spacing-large;
+  }
+  h3 {
+    color: $darkGreenColor;
+    margin-bottom: $spacing-medium;
+  }
+  ul {
+    margin-left: $spacing-medium;
+    margin-bottom: $spacing-large;
+    li {
+      font-size: 16px;
+    }
+  }
+}
+.nutrition-facts-table {
+  width: 100%;
+  max-width: 305px;
+  border-collapse: collapse;
+  border-radius: 15px;
+  border: solid 2px $darkGreenColor;
+  margin-bottom: $spacing-xlarge;
+  tr {
+    background-color: $lightGreyColor;
+    height: 45px;
+    border-bottom: solid 1px $darkGreenColor;
+    td {
+      padding: 0 $spacing-medium;
+      font-size: 16px;
+      &:first-child {
+        font-weight: 600;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+}
