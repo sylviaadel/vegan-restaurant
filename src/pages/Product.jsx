@@ -22,9 +22,9 @@ export default function Product(props) {
         <p>{currentProduct.desc}</p>
         <Ingredients product={currentProduct} />
         <NutritionFacts product={currentProduct} />
-        <button className="primary-btn">
-          <Link to={`/Category/${currentCategory.name}`}>Go Back</Link>
-        </button>
+        <Link to={`/Category/${currentCategory.name}`} className="primary-btn">
+          Go Back
+        </Link>
       </div>
     </section>
   );

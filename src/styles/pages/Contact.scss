@@ -93,8 +93,12 @@
   .book-table,
   .address {
     max-width: 650px;
+    ul li {
+      font-size: 20px;
+    }
   }
   .book-table input[type="text"] {
+    font-size: 20px;
     &.day-field {
       background: url(../../assets/images/calendar-icon.svg) no-repeat 98%
         center;
