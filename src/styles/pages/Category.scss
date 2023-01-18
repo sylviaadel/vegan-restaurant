@@ -18,13 +18,13 @@
   }
 }
 .category-content {
-  text-align: justify;
   margin: 2rem auto;
   & > p {
     white-space: pre-line;
     vertical-align: bottom;
     max-width: 305px;
     margin: auto;
+    text-align: justify;
   }
 }
 

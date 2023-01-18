@@ -1,26 +1,31 @@
+import categories from "../Data/categories.json";
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Ingredients from "../components/Product/Ingredients";
 import NutritionFacts from "../components/Product/NutritionFacts";
-import productImg from "../assets/images/mac-cheese.jpg";
 
-export default function Product() {
+export default function Product(props) {
+  let { category, productId } = useParams();
+  let currentCategory = categories.find((c) => c.name === category);
+  let currentProduct = currentCategory.products.find((p) => p.id === productId);
+
   return (
-    <>
+    <section key={currentProduct.id}>
       <header className="product-header">
-        <img src={productImg} alt="" />
-        <h2>BUTTERNUT SQUASH MAC & CHEESE</h2>
+        <img
+          src={`../images/products/${currentProduct.img}`}
+          alt={currentProduct.alt}
+        />
+        <h2>{currentProduct.name}</h2>
       </header>
       <div className="product-content">
-        <p>
-          Ultra creamy and delicious this Vegan Butternut Squash Mac & Cheese
-          with smoky flavor is the BEST! With only 10 ingredients it's quick and
-          comfort food! This is a delicious fall inspired mac and cheese made
-          with butternut squash, cashews, nutritional yeast, smoked paprika and
-          a few other everyday pantry staples.
-        </p>
-        <Ingredients />
-        <NutritionFacts />
-        <button className="primary-btn">Go Back</button>
+        <p>{currentProduct.desc}</p>
+        <Ingredients product={currentProduct} />
+        <NutritionFacts product={currentProduct} />
+        <button className="primary-btn">
+          <Link to={`/Category/${currentCategory.name}`}>Go Back</Link>
+        </button>
       </div>
-    </>
+    </section>
   );
 }

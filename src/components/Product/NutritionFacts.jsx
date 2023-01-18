@@ -1,32 +1,15 @@
-export default function NutritionFacts() {
+export default function NutritionFacts(props) {
+  const facts = props.product.nutritionFacts.map((fact) => (
+    <tr key={fact.name}>
+      <td>{fact.name}</td>
+      <td>{fact.value}</td>
+    </tr>
+  ));
   return (
     <>
       <h3>Nutrition Facts</h3>
       <table className="nutrition-facts-table">
-        <tr>
-          <td>Calories</td>
-          <td>466</td>
-        </tr>
-        <tr>
-          <td>Total Fat</td>
-          <td>15%</td>
-        </tr>
-        <tr>
-          <td>Cholesterol</td>
-          <td>0%</td>
-        </tr>
-        <tr>
-          <td>Sodium</td>
-          <td>1%</td>
-        </tr>
-        <tr>
-          <td>TotalCarbohydrate</td>
-          <td>28%</td>
-        </tr>
-        <tr>
-          <td>Protein</td>
-          <td>33%</td>
-        </tr>
+        <tbody>{facts}</tbody>
       </table>
     </>
   );

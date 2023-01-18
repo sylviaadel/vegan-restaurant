@@ -1,18 +1,23 @@
-import category from "../Data/categories.json";
+import categories from "../Data/categories.json";
 import ProductsContainer from "../components/ProductsContainer";
+import { useParams } from "react-router-dom";
 
-const categoriesItems = category.map((category) => (
-  <div key={category.id}>
-    <header className="category-header" key={category.id}>
-      <img src={`images/${category.image}`} alt={category.alt} />
-      <h1>{category.title}</h1>
-    </header>
-    <div className="category-content">
-      <p>{category.desc}</p>
-      <ProductsContainer />
-    </div>
-  </div>
-));
 export default function Category(props) {
-  return <>{categoriesItems}</>;
+  let { name } = useParams();
+  let currentCategory = categories.find((c) => c.name === name);
+  return (
+    <>
+      <header className="category-header" key={currentCategory.id}>
+        <img
+          src={`../images/${currentCategory.image}`}
+          alt={currentCategory.alt}
+        />
+        <h1>{currentCategory.title}</h1>
+      </header>
+      <div className="category-content">
+        <p>{currentCategory.desc}</p>
+        <ProductsContainer category={currentCategory} />
+      </div>
+    </>
+  );
 }

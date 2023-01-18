@@ -13,8 +13,8 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Category" element={<Category />} />
-        <Route path="/Product" element={<Product />} />
+        <Route path="/Category/:name" element={<Category />} />
+        <Route path="/:category/:productId" element={<Product />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <Footer />

@@ -1,27 +1,40 @@
 .ProductsContainer {
   margin-top: $spacing-medium;
   section {
-    padding: $spacing-large;
+    padding: $spacing-large 0;
     &:nth-child(even) {
       background-color: $lightGreyColor;
     }
-    div {
+    & > div {
       max-width: 305px;
+      margin: auto;
+      display: flex;
+    }
+    a {
+      display: block;
+      color: $darkGreenColor;
+      text-decoration: none;
+      font-size: inherit;
+      &:hover,
+      &:focus,
+      &:visited {
+        color: $darkGreenColor;
+      }
+    }
+    div {
       margin: auto;
     }
     img {
-      height: 40px;
-      float: left;
+      width: 55px;
       margin-right: $spacing-small;
+      height: 80px;
     }
     h3 {
-      margin: $spacing-small;
-      float: left;
       color: $darkGreenColor;
+      margin-bottom: $spacing-small;
     }
     p {
-      display: inline-block;
-      margin-top: $spacing-small;
+      text-align: justify;
     }
   }
 }
@@ -36,12 +49,14 @@
       }
       & > div {
         max-width: 825px;
-        img {
-          height: 190px;
-          margin-right: $spacing-medium;
-        }
       }
-      div div {
+      img {
+        height: 170px;
+        margin-right: $spacing-large;
+        width: auto;
+        object-fit: cover;
+      }
+      a div {
         max-width: 560px;
         float: left;
       }

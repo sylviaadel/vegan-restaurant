@@ -1,17 +1,21 @@
-import category from "../Data/categories.json";
+import { Link } from "react-router-dom";
 
-const productsItems = category.map((product) => (
-  <section key={product.id}>
-    <div>
-      <img src={`images/${product.image}`} alt={product.alt} />
+export default function ProductsContainer(props) {
+  const products = props.category.products.map((product) => (
+    <section key={product.id}>
       <div>
-        <h3>{product.name}</h3>
-        <p>{product.desc}</p>
+        <img src={`../images/products/${product.img}`} alt={product.alt} />
+        <div>
+          <h3>
+            <Link to={`/${props.category.name}/${product.id}`}>
+              {product.name}
+            </Link>
+          </h3>
+          <p>{product.desc}</p>
+        </div>
+        <div className="clear"></div>
       </div>
-    </div>
-    <div className="clear"></div>
-  </section>
-));
-export default function ProductsContainer() {
-  return <div className="ProductsContainer">{productsItems}</div>;
+    </section>
+  ));
+  return <div className="ProductsContainer">{products}</div>;
 }

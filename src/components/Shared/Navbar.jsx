@@ -9,13 +9,13 @@ export default function Navbar() {
       </Link>
       <ul>
         <li>
-          <Link to="/Category">Dishes</Link>
+          <Link to="/Category/Dishes">Dishes</Link>
         </li>
         <li>
-          <Link to="/Category">Desserts</Link>
+          <Link to="/Category/Desserts">Desserts</Link>
         </li>
         <li>
-          <Link to="/Category">Drinks</Link>
+          <Link to="/Category/Drinks">Drinks</Link>
         </li>
         <li>
           <Link to="/Contact">Contact</Link>
