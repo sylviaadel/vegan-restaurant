@@ -10,6 +10,9 @@ nav.navbar {
   width: 100%;
   top: 0;
   z-index: 1;
+  & > a label {
+    display: none;
+  }
   img {
     height: 50px;
   }
@@ -45,6 +48,20 @@ nav.navbar {
           font-weight: 600;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  nav.navbar {
+    & > a label {
+      display: inline;
+      color: $darkGreenColor;
+      font-size: 40px;
+      position: absolute;
+      top: 28px;
+      margin-left: $spacing-medium;
+      font-weight: 500;
     }
   }
 }

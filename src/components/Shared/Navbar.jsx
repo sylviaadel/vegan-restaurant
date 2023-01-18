@@ -12,6 +12,7 @@ export default function Navbar() {
     <nav className="navbar">
       <Link to="/">
         <img src={mainLogo} alt="A fork and a spoon along with a leaf." />
+        <label>Veganhuset</label>
       </Link>
       <ul>
         {categoriesList}
