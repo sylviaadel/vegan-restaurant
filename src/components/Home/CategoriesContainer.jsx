@@ -7,7 +7,7 @@ export default function CategoriesContainer() {
     <section key={category.id}>
       <div>
         <div className="CategoryImgContainer">
-          <img src={`images/${category.image}`} alt={category.alt} />
+          <img src={`images/categories/${category.image}`} alt={category.alt} />
         </div>
         <div>
           <h2>{category.name}</h2>

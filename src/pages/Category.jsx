@@ -9,7 +9,7 @@ export default function Category(props) {
     <>
       <header className="category-header" key={currentCategory.id}>
         <img
-          src={`../images/${currentCategory.image}`}
+          src={`../images/categories/${currentCategory.image}`}
           alt={currentCategory.alt}
         />
         <h1>{currentCategory.title}</h1>
