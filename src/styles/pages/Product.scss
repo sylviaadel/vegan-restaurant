@@ -84,10 +84,16 @@
     }
     ul {
       margin-bottom: $spacing-xlarge;
+      li {
+        font-size: 20px;
+      }
     }
   }
   .nutrition-facts-table {
     max-width: 650px;
     margin-bottom: 64px;
+    tr td {
+      font-size: 20px;
+    }
   }
 }
