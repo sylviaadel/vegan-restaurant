@@ -51,8 +51,12 @@
       background: url(../../assets/images/calendar-icon.svg) no-repeat 95%
         center;
     }
+    &.time-field {
+      background: url(../../assets/images/clock-icon.svg) no-repeat 95% center;
+    }
   }
-  .react-datepicker-wrapper:has(.day-field) {
+  .react-datepicker-wrapper:has(.day-field),
+  .react-datepicker-wrapper:has(.time-field) {
     margin-bottom: $spacing-medium;
     & + .react-datepicker__tab-loop {
       .react-datepicker__day--selected {
@@ -103,6 +107,12 @@
       background: url(../../assets/images/calendar-icon.svg) no-repeat 98%
         center;
     }
+    &.time-field {
+      background: url(../../assets/images/clock-icon.svg) no-repeat 98% center;
+    }
+  }
+  .react-datepicker-popper li {
+    font-size: 16px !important;
   }
   .map img {
     max-height: 580px;
