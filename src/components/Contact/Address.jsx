@@ -3,8 +3,7 @@ export default function Address() {
     <section className="address">
       <h3>Address</h3>
       <ul>
-        <li>Brevik, Lidingö</li>
-        <li>Stockholm, Sweden</li>
+        <li>Brevik, Lidingö, Stockholm, Sweden</li>
       </ul>
     </section>
   );
