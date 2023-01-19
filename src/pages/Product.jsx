@@ -3,7 +3,7 @@ import categories from "../Data/categories.json";
 import Ingredients from "../components/Product/Ingredients";
 import NutritionFacts from "../components/Product/NutritionFacts";
 
-export default function Product(props) {
+export default function Product() {
   let { category, productId } = useParams();
   let currentCategory = categories.find((c) => c.name === category);
   let currentProduct = currentCategory.products.find((p) => p.id === productId);

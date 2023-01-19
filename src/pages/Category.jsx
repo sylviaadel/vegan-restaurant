@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import categories from "../Data/categories.json";
 import ProductsContainer from "../components/Category/ProductsContainer";
 
-export default function Category(props) {
+export default function Category() {
   let { name } = useParams();
   let currentCategory = categories.find((c) => c.name === name);
 
