@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="Hero">
       <img
         src={heroImg}
-        alt="A vegan dish with vegtables with the shape of heart"
+        alt="A vegan dish of vegtables with the shape of heart"
       />
       <h1>Veganhuset</h1>
       <h3>

@@ -1,10 +1,11 @@
-import categories from "../Data/categories.json";
-import ProductsContainer from "../components/ProductsContainer";
 import { useParams } from "react-router-dom";
+import categories from "../Data/categories.json";
+import ProductsContainer from "../components/Category/ProductsContainer";
 
 export default function Category(props) {
   let { name } = useParams();
   let currentCategory = categories.find((c) => c.name === name);
+
   return (
     <>
       <header className="category-header" key={currentCategory.id}>

@@ -1,15 +1,15 @@
 export default function NutritionFacts(props) {
-  const facts = props.product.nutritionFacts.map((fact) => (
-    <tr key={fact.name}>
-      <td>{fact.name}</td>
-      <td>{fact.value}</td>
+  const nutritionFacts = props.product.nutritionFacts.map((nutritionFacts) => (
+    <tr key={nutritionFacts.name}>
+      <td>{nutritionFacts.name}</td>
+      <td>{nutritionFacts.value}</td>
     </tr>
   ));
   return (
     <>
       <h3>Nutrition Facts</h3>
       <table className="nutrition-facts-table">
-        <tbody>{facts}</tbody>
+        <tbody>{nutritionFacts}</tbody>
       </table>
     </>
   );

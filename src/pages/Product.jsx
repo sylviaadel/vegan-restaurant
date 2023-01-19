@@ -1,6 +1,5 @@
+import { Link, useParams } from "react-router-dom";
 import categories from "../Data/categories.json";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
 import Ingredients from "../components/Product/Ingredients";
 import NutritionFacts from "../components/Product/NutritionFacts";
 

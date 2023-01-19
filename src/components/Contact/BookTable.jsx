@@ -4,6 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export default function BookTable() {
   const [startDate, setStartDate] = useState(new Date());
+
   return (
     <section className="book-table">
       <h3>Book a table</h3>

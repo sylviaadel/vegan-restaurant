@@ -13,7 +13,6 @@ export default function ProductsContainer(props) {
           </h3>
           <p>{product.desc}</p>
         </div>
-        <div className="clear"></div>
       </div>
     </section>
   ));

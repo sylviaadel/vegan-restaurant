@@ -8,6 +8,7 @@ export default function Navbar() {
       <Link to={`/Category/${category.name}`}>{category.name}</Link>
     </li>
   ));
+
   return (
     <nav className="navbar">
       <Link to="/">
