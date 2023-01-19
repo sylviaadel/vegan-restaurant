@@ -5,7 +5,7 @@ import mainLogo from "../../assets/images/logo.png";
 export default function Navbar() {
   const categoriesList = categories.map((category) => (
     <li key={category.id}>
-      <Link to={`/Category/${category.name}`}>{category.name}</Link>
+      <Link to={`/${category.name}`}>{category.name}</Link>
     </li>
   ));
 
