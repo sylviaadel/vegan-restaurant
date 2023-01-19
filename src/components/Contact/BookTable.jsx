@@ -25,6 +25,7 @@ export default function BookTable() {
           timeIntervals={60}
           dateFormat="h:mm aa"
         />
+        <button className="primary-btn">Book Now</button>
       </form>
     </section>
   );
