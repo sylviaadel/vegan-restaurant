@@ -84,6 +84,13 @@
     width: 100%;
   }
 }
+.react-datepicker--time-only,
+.react-datepicker {
+  .react-datepicker__triangle::before,
+  .react-datepicker__triangle::after {
+    left: -35px !important;
+  }
+}
 
 @media (min-width: 860px) {
   .contact-header {
@@ -111,8 +118,10 @@
       background: url(../../assets/images/clock-icon.svg) no-repeat 98% center;
     }
   }
-  .react-datepicker-popper li {
-    font-size: 16px !important;
+  .react-datepicker-popper {
+    li {
+      font-size: 16px !important;
+    }
   }
   .map img {
     max-height: 580px;
