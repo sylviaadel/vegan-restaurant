@@ -4,7 +4,6 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export default function BookTable() {
   const [date, setDate] = useState(new Date());
-  const [time, setTime] = useState(new Date());
 
   return (
     <section className="book-table">
@@ -19,12 +18,11 @@ export default function BookTable() {
         />
         <DatePicker
           className="time-field"
-          selected={time}
-          onChange={(time) => setTime(time)}
+          selected={date}
+          onChange={(date) => setDate(date)}
           showTimeSelect
           showTimeSelectOnly
           timeIntervals={60}
-          timeCaption="Time"
           dateFormat="h:mm aa"
         />
       </form>
