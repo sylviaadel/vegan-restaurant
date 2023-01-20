@@ -12,7 +12,7 @@ export default function CategoriesContainer() {
         <div>
           <h2>{category.name}</h2>
           <p>{category.desc}</p>
-          <Link to={`/Category/${category.name}`}>
+          <Link to={`/${category.name}`}>
             <img src={arrowRight} alt="Chevron Right" /> View menu
           </Link>
         </div>
