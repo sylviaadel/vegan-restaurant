@@ -1,9 +1,14 @@
+import { func } from "prop-types";
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 export default function BookTable() {
   const [date, setDate] = useState(new Date());
+
+  function handleClick(event) {
+    event.preventDefault();
+  }
 
   return (
     <section className="book-table">
@@ -25,7 +30,9 @@ export default function BookTable() {
           timeIntervals={60}
           dateFormat="h:mm aa"
         />
-        <button className="primary-btn">Book Now</button>
+        <button className="primary-btn" onClick={handleClick}>
+          Book Now
+        </button>
       </form>
     </section>
   );
