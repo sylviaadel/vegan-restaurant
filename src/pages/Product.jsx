@@ -21,7 +21,7 @@ export default function Product() {
         <p>{currentProduct.desc}</p>
         <Ingredients product={currentProduct} />
         <NutritionFacts product={currentProduct} />
-        <Link to={`/${currentCategory.name}`} className="primary-btn">
+        <Link to={`/Category/${currentCategory.name}`} className="primary-btn">
           Go Back
         </Link>
       </div>
