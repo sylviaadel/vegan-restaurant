@@ -1,5 +1,5 @@
 .Hero {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   background-color: $lightGreenColor;
   display: flex;
   flex-direction: column;
@@ -7,6 +7,7 @@
   justify-content: center;
   gap: $spacing-small;
   margin-top: 70px;
+  padding: 2rem;
   img {
     margin-bottom: 24px;
     min-width: 160px;
