@@ -1,6 +1,6 @@
 ## ReactJS Veganhuset
 
-In this application you can check information about Veganhuset restaurnat, all dishes, desserts and drinks. Also you can contact us and reserve a table anytime.
+In this application you can check information about Veganhuset restaurant, all dishes, desserts and drinks. Also you can contact us and reserve a table anytime.
 
 ## Installation and Setup Instructions
 
