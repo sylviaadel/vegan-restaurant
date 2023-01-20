@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+## ReactJS Veganhuset
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this application you can check information about Veganhuset restaurnat, all dishes, desserts and drinks. Also you can contact us and reserve a table anytime.
 
-## Available Scripts
+## Installation and Setup Instructions
 
-In the project directory, you can run:
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-### `npm start`
+Installation:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm install`  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To Start Server:
 
-### `npm test`
+`npm start`  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Starter Project Overview
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Requirement gathering: 
+  https://docs.google.com/document/d/1Uyr1DusltudsbVi9kErDutyyDvGh3WAFonsVIUysnA0/edit?usp=sharing
+  
+2. Project spreadsheet:
+  https://docs.google.com/spreadsheets/d/1tP5TYWEab5YzZpON-4V8UH0nRDY9y5AyeFpo2GesE78/edit?usp=sharing
+  
+3. User flow diagram:
+  https://whimsical.com/vegan-restaurant-user-flow-BypVTuji8QMwTxsNCjFiQM
+  
+4. Design mockup:
+  https://www.figma.com/file/CdkH2bFymlrCvlKp088IDv/Vegan-Restaurant-Design?node-id=6%3A443&t=eUj4xIrwmanq96Tw-1
+  
+5. Component tree:
+  https://whimsical.com/vegan-restaurant-tree-diagram-MNkYMLpNM7nyqoZttmzd3V
+  
+6. Coding state:
+  I made the following enhancements:
+  1. Added scss to project
+  2. Created navbar component
+  4. Added Home page with hero section and categories
+  5. Added the footer to be visible in all pages
+  6. Added categories page dynamic to state all categories listed with their products 
+  7. Added product page to view every product in details
+  8. Added all dynamic links
+  9. Added contact page with all info needed
+  10. Added form in contact page to reserve table
+  
+7. Hosted link:
+  https://veganhuset-fc31a.firebaseapp.com/
