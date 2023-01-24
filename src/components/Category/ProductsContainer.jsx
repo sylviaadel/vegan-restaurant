@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function ProductsContainer(props) {
+  // same repetion mistkae mentioned in Home categories
   const products = props.category.products.map((product) => (
     <section key={product.id}>
       <div>
@@ -16,5 +17,6 @@ export default function ProductsContainer(props) {
       </div>
     </section>
   ));
+
   return <div className="ProductsContainer">{products}</div>;
 }
