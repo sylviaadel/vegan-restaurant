@@ -3,9 +3,6 @@ import arrowRight from "../../assets/images/chevron-right.png";
 import { Link } from "react-router-dom";
 
 export default function CategoriesContainer() {
-  // Repetition -1
-  // This component CategoriesContainer is a <section>
-  // The item you loop is a <article>
   const categoriesList = categories.map((category) => (
     <article key={category.id}>
       <div>
