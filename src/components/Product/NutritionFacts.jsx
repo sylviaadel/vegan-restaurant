@@ -5,6 +5,7 @@ export default function NutritionFacts(props) {
       <td>{nutritionFacts.value}</td>
     </tr>
   ));
+
   return (
     <>
       <h3>Nutrition Facts</h3>

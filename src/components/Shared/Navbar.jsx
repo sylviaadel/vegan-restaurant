@@ -3,6 +3,7 @@ import categories from "../../Data/categories.json";
 import mainLogo from "../../assets/images/logo.png";
 
 export default function Navbar() {
+  // great!!!
   const categoriesList = categories.map((category) => (
     <li key={category.id}>
       <Link to={`/Category/${category.name}`}>{category.name}</Link>
