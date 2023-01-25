@@ -1,6 +1,6 @@
 .ProductsContainer {
   margin-top: $spacing-medium;
-  section {
+  article {
     padding: $spacing-large 0;
     &:nth-child(even) {
       background-color: $lightGreyColor;
@@ -44,7 +44,7 @@
 @media (min-width: 860px) {
   .ProductsContainer {
     margin-top: $spacing-large;
-    section {
+    article {
       padding: $spacing-large 0 0 0;
       &:nth-child(even) {
         background-color: $whiteColor;

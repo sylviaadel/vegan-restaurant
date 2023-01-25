@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import categories from "../Data/categories.json";
+import categories from "../data/categories.json";
 import Ingredients from "../components/Product/Ingredients";
 import NutritionFacts from "../components/Product/NutritionFacts";
 
@@ -21,7 +21,7 @@ export default function Product() {
         <p>{currentProduct.desc}</p>
         <Ingredients product={currentProduct} />
         <NutritionFacts product={currentProduct} />
-        <Link to={`/Category/${currentCategory.name}`} className="primary-btn">
+        <Link to={`/category/${currentCategory.name}`} className="primary-btn">
           Go Back
         </Link>
       </div>

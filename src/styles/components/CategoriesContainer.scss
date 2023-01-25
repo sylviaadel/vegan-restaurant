@@ -1,5 +1,5 @@
 .CategoriesContainer {
-  section {
+  article {
     padding: 2rem;
     &:nth-child(even) {
       background-color: $lightGreyColor;
@@ -41,7 +41,7 @@
 }
 
 @media (min-width: 860px) {
-  .CategoriesContainer section {
+  .CategoriesContainer article {
     padding: 0;
     &:nth-child(even) {
       background-color: $whiteColor;

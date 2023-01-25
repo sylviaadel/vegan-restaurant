@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import categories from "../Data/categories.json";
+import categories from "../data/categories.json";
 import ProductsContainer from "../components/Category/ProductsContainer";
 
 export default function Category() {

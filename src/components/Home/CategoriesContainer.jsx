@@ -1,4 +1,4 @@
-import categories from "../../Data/categories.json";
+import categories from "../../data/categories.json";
 import arrowRight from "../../assets/images/chevron-right.png";
 import { Link } from "react-router-dom";
 
@@ -7,7 +7,7 @@ export default function CategoriesContainer() {
   // This component CategoriesContainer is a <section>
   // The item you loop is a <article>
   const categoriesList = categories.map((category) => (
-    <section key={category.id}>
+    <article key={category.id}>
       <div>
         <div className="CategoryImgContainer">
           <img src={`images/categories/${category.image}`} alt={category.alt} />
@@ -15,13 +15,13 @@ export default function CategoriesContainer() {
         <div>
           <h2>{category.name}</h2>
           <p>{category.desc}</p>
-          <Link to={`/Category/${category.name}`}>
+          <Link to={`/category/${category.name}`}>
             <img src={arrowRight} alt="Chevron Right" /> View menu
           </Link>
         </div>
       </div>
-    </section>
+    </article>
   ));
 
-  return <div className="CategoriesContainer">{categoriesList}</div>;
+  return <section className="CategoriesContainer">{categoriesList}</section>;
 }

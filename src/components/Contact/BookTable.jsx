@@ -1,9 +1,7 @@
-import { func } from "prop-types";
 import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-// nice but even if is a fake form, how to do you store the name and email of the customer?
 export default function BookTable() {
   const [date, setDate] = useState(new Date());
 
